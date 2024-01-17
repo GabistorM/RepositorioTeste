@@ -1,28 +1,28 @@
 create database TesteRepositorio
-GO
+go
 
 use TesteRepositorio
 go
 
-create table 1
+create table tabela1
     (
         id1         INT         not null        IDENTITY            PRIMARY KEY
     )
 go
 
-create table 2
+create table tabela2
     (
         id2         INT         not null        IDENTITY            PRIMARY KEY
     )
 go
 
-create table 3
+create table tabela3
     (
-        1id         INT         not null,
-        2id         INT         not null,
+        tab1id         INT         not null,
+        tab2id         INT         not null,
 
-        Foreign Key (1id) REFERENCES tabela1 (id1),
-        Foreign Key (2id) REFERENCES tabela2 (id2)
+        Foreign Key (tab1id) REFERENCES tabela1 (id1),
+        Foreign Key (tab2id) REFERENCES tabela2 (id2)
 
     )
 go
