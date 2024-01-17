@@ -5,3 +5,6 @@
  A aula em questa é https://www.youtube.com/watch?v=5BYm7UdCrX0&list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA&index=7
 
  Aprendi a criar um repositorio, alterar e fazer um commit.
+
+
+Fiz mais uma alteração para testar o versionamento, foi feito direto pelo github na internet
