@@ -8,3 +8,7 @@
 
 
 Fiz mais uma alteração para testar o versionamento, foi feito direto pelo github na internet
+
+Nessa ultima alteração entendi a aplicação do:
+    fetch origin  - basicamente ele compara o seu arquivo como o arquivo remoto e ve se existem diferenças, caso tenha ele sujere um Pull
+    Pull - significa puxar, entao ele "puxa" as alteração do arquivo para seu github
